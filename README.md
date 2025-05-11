@@ -35,6 +35,7 @@ All instances of ClientHandler reflecting all now connected clients are kept in 
 ## Client Class : ##
 
 Every client communicates using input and output streams and uses a Socket to connect to the server. Upon connecting, the Client transmits its username to the server, which is then passed to all existing clients to denote the new participant. 
+
 Using Java Swing and socket programming, the Client class creates a graphical user interface (GUI) for a user to engage in a group chat. Client Class real-time shows incoming messages from the server. The UI comprises a central text area i.e. chatArea (JTextPane) to display messages, a header with control icons (such back, call, video call, more) and Clientname i.e uname, and a footer with a send button and a message input area (JTextField). Once the user clicks send after entering a message, the message is sent across a socket by BufferedWriter(bw) and displayed on the chat pane in a custom style (right-aligned, colored). Incoming communications from other users are received on a different thread and shown in a different color.
 The GUI design is arranged with a soothing color palette and evident visual hierarchy, therefore enhancing both user experience and appearance.
 

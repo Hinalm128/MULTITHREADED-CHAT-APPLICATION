@@ -34,3 +34,17 @@ Using Java Swing and socket programming, the Client class creates a graphical us
 The GUI design is arranged with a soothing color palette and evident visual hierarchy, therefore enhancing both user experience and appearance.
 
 Together, the Server, ClientHandler, and Client classes present a simple but effective framework for a multi-client chat service. Although each ClientHandler instance manages one connection and passes messages to others, the server manages multiple clients by means of threads. The client interface allows for real-time interaction, therefore this configuration illustrates basic network communication and concurrent programming in Java.
+
+## OUTPUT ##
+
+Client :
+
+![Image](https://github.com/user-attachments/assets/690591fc-cb63-4447-a665-363b9d5efb4f)
+
+![Image](https://github.com/user-attachments/assets/ee6713a4-c134-475c-acbe-8075a0dde418)
+
+![Image](https://github.com/user-attachments/assets/b4234fc0-e5f3-40c9-8924-622caea4610b)
+
+Server :
+
+![Image](https://github.com/user-attachments/assets/f4699479-5392-4911-ac3d-4a7f20ab40c5)

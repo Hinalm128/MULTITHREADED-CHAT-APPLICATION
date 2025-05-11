@@ -12,7 +12,7 @@
 
 "MENTOR": NEELA SANTHOSH
 
-##DESCRIPTION##
+## DESCRIPTION ##
 
 Task 3 : Multithreaded Chat Application 
 
